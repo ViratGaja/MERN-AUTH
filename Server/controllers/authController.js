@@ -89,5 +89,5 @@ export const logout = async (req, res) => {
     }
     catch (err) {
         return res.json({ success: false, message: err.message })
-    }
-}
+    } 
+} 
