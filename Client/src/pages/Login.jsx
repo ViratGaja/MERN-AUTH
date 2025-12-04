@@ -68,12 +68,12 @@ const Login = () => {
                 onChange={e => setName(e.target.value)} 
                 value={name} 
                 type="text" 
-                className='placeholder-gray-50 bg-transparent focus:bg-transparent outline-none p-1 w-full' 
+                className='placeholder-gray-50 bg-transparent focus:bg-transparent outline-none p-1 w-full'  
                 placeholder='Full Name' 
                 required 
               />
             </div>
-          )}
+          )}      
        
           <div className='mb-4 flex items-center gap-3 w-full px-5 py-3 rounded-full bg-[#333A5C]'>
             <img src={assets.mail_icon} alt="" />
